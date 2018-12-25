@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import NavigationMenu from "./components/NavigationMenu";
+import CLT from "./components/CLT";
 
 class App extends Component {
   render() {
@@ -10,6 +11,9 @@ class App extends Component {
           <NavigationMenu />
         </div>
         <h1>Einer Lim FullStack Front End Developer</h1>
+        <div>
+          <CLT />
+        </div>
       </div>
     );
   }

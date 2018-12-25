@@ -6,26 +6,24 @@ import styles from "./styles";
 
 const NavigationMenu = ({ classes }) => {
   return (
-    <div className={classes.Root}>
-      <Toolbar className={classes.Tool}>
-        <Typography variant="h6" color="inherit">
-          Einer Lim
-          <br /> Full Stack Front End Developer
-        </Typography>
-        <Typography variant="h6" color="inherit">
-          Home
-        </Typography>
-        <Typography variant="h6" color="inherit">
-          About
-        </Typography>
-        <Typography variant="h6" color="inherit">
-          Projects
-        </Typography>
-        <Typography variant="h6" color="inherit">
-          Resume
-        </Typography>
-      </Toolbar>
-    </div>
+    <Toolbar className={classes.Tool}>
+      <Typography variant="h6" color="inherit">
+        Einer Lim
+        <br /> Full Stack Front End Developer
+      </Typography>
+      <Typography variant="h6" color="inherit">
+        Home
+      </Typography>
+      <Typography variant="h6" color="inherit">
+        About
+      </Typography>
+      <Typography variant="h6" color="inherit">
+        Projects
+      </Typography>
+      <Typography variant="h6" color="inherit">
+        Resume
+      </Typography>
+    </Toolbar>
   );
 };
 
